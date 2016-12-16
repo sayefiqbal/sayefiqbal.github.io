@@ -18,6 +18,9 @@
     padding: 10px 20px;
     font-family: arial;
  }
+ a{
+    color: white;
+ }
  h1 {
 		 background-color: rgba(10, 0, 0, .5);
 		 position: center;
@@ -30,12 +33,10 @@
 		 font-size: 70px;
 		 font-family: Impact
  }
-
  button:hover {
 	background-color: rgba(10, 0, 0, .65);
   color: white;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-
 	 
 }
 #slideshow, img.bgM {
@@ -73,12 +74,12 @@
 <br> </br>
 <br> </br>
 
- <a> <img src="http://i.imgur.com/Smsu9n6t.jpg" /></a>
+ <img src="http://i.imgur.com/Smsu9n6t.jpg" >
 	 <h1> Sayef Iqbal </h1>
 
 </div>
 
-<button href="main.html" class="enter_link">Enter</button>
+<button><a href="main.html" class="enter_link">Enter</button></a>
 
 <script>
 	$('.enter_link').click(function() {
