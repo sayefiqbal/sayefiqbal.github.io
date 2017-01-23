@@ -390,7 +390,8 @@ button {
     position: relative;
     margin: 70px 0 0 0;
  }
-   .cb-slideshow li div h3 { 
+   .cb-slideshow li div h3 {
+      line-height: 400px;
       font-size: 50px
-      line-height: 200px; }
+       }
 }
