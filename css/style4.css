@@ -377,7 +377,7 @@ button:hover {
     text-align: center;
       font-size: 60px;
       position: relative;
-      padding: 95px 50px 0 50px; }
+      padding: 105px 50px 0 50px; }
     p{    
       text-align: center;
       font-size: 20px;
@@ -391,7 +391,7 @@ button {
     margin: 65px 0 0 0;
  }
    .cb-slideshow li div h3 {
-      line-height: 320px;
+      line-height: 290px;
       font-size: 50px
        }
 }
